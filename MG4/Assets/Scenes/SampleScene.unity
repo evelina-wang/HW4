@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 749832068}
   m_Layer: 5
   m_Name: ScoreText
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -296,9 +296,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1452096396}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -165, y: -173}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 79, y: 31}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749832068
@@ -896,7 +896,7 @@ Transform:
   m_GameObject: {fileID: 1755996183}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.76, y: 0.7, z: 0}
+  m_LocalPosition: {x: -5.18, y: 0.35, z: 0}
   m_LocalScale: {x: 1, y: 1.062392, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1163,8 +1163,8 @@ Transform:
   m_GameObject: {fileID: 1784129062}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.06, y: -4.07, z: 0}
-  m_LocalScale: {x: 12.780867, y: 2.1182, z: 1}
+  m_LocalPosition: {x: -0.0717, y: -4.07, z: 0}
+  m_LocalScale: {x: 19.084188, y: 2.1182, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1222,13 +1222,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 410006957}
     m_Modifications:
+    - target: {fileID: 2507755818643851093, guid: 67df904b66b2a40e988eb8d1742aa035, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507755818643851093, guid: 67df904b66b2a40e988eb8d1742aa035, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5536060091259894873, guid: 67df904b66b2a40e988eb8d1742aa035, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.08
       objectReference: {fileID: 0}
     - target: {fileID: 5536060091259894873, guid: 67df904b66b2a40e988eb8d1742aa035, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.21
       objectReference: {fileID: 0}
     - target: {fileID: 5536060091259894873, guid: 67df904b66b2a40e988eb8d1742aa035, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1265,6 +1273,14 @@ PrefabInstance:
     - target: {fileID: 6228382441402259913, guid: 67df904b66b2a40e988eb8d1742aa035, type: 3}
       propertyPath: m_Name
       value: PipePrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7232631710537993929, guid: 67df904b66b2a40e988eb8d1742aa035, type: 3}
+      propertyPath: m_TagString
+      value: Pipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196857938703239357, guid: 67df904b66b2a40e988eb8d1742aa035, type: 3}
+      propertyPath: m_TagString
+      value: Pipe
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

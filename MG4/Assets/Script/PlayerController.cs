@@ -42,11 +42,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (!isAlive) return;
+   private void OnCollisionEnter2D(Collision2D collision)
+{
+    if (!isAlive) return;
 
+    if (collision.gameObject.CompareTag("Pipe"))
+    {
         isAlive = false;
         GameManager.Instance.GameOver();
     }
+}
 }
